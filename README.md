@@ -2,34 +2,35 @@
 
 ## Project Name
 
-World population tracker
+Find Meals For Your Ingredients
 
 ## Project Description
 
-Users can get the latest information about world population confirmed cases, deaths and births in every country.
+- Users can get any recipe of food entering ingredient name.
+- Food recipe will appear on page.
 
 ## API and Data Sample
 
-https://api.census.gov/data/2019/acs/acs1/profile?get=NAME,DP02_0001E&key= USA
+<www.themealdb.com/api/json/v1/1/filter.php?i=chicken_breast>
+
+<www.themealdb.com/api/json/v1/1/lookup.php?i=52874>
 
 ## Wireframes
 
-Please check the link <https://whimsical.com/69EXxXXns3NPCddTh9n5M4>
+<https://whimsical.com/9JMFSCtMz94VhTrjZJUBan@2Ux7TurymN4rAbZVJmzN>
 
 ### MVP
 
-- Users can select any States in the USA to receive information.
+- Users can see select any random ingredients .
 - External API will provide needed information.
-- All information will be applied to the page.
-- It allows to see them total birth, total deaths .
-- An app that you give a list of countries, then returns how many people live in each one, in order from highest to lowest
+- Photo image will be applied to the each food.
 - After each new selection ,old information will be removed.
 
 #### PostMVP
 
-- Will be added event listeners to receive correct information from API.
-- Most selectable States will be kept in local storage.
-- Will be used animation and gifts.
+- Will be added background images.
+- Most selectable will be kept in local storage.
+- Will be separated by categories.
 - Will have adjusted for small devices as well.
 - Will be added extra space to have users feedback and suggestions.
 
@@ -53,7 +54,7 @@ Please check the link -
 ## Timeframes
 
 | Component                                                 | Priority | Estimated Time | Time Invested | Actual Time |
-| --------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: | --- | ------------ | --- | ---- | --- | ---- |
+| --------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
 | API Research                                              |    H     |      3hrs      |    3.5hrs     |   3.5hrs    |
 | Working with API                                          |    H     |      0hrs      |     0hrs      |    0hrs     |
 | Work with html tags                                       |    H     |      3hrs      |     0hrs      |    0hrs     |
@@ -62,7 +63,8 @@ Please check the link -
 | Test API request in html                                  |    H     |      1hrs      |     0hrs      |    0hrs     |
 | Apply correctly API's data to HTML                        |    H     |      5hrs      |     0hrs      |    0hrs     |
 | Apply design for small devices                            |    H     |      4hrs      |     0hrs      |    0hrs     |
-| Add outsourse data(images,gifts, animations etc.)         |    H     |      3hrs      |     0hrs      |    0hrs     |     | API Research | H   | 3hrs | 0rs | 0hrs |
+| Add outsourse data(images,gifts, animations etc.)         |    H     |      3hrs      |     0hrs      |    0hrs     |
+| API Research                                              |    H     |      3hrs      |      0rs      |    0hrs     |
 | Apply design and make it user friendly with correct logic |    H     |      4hrs      |     0hrs      |    0hrs     |
 | Additional futures                                        |    H     |      3hrs      |     0hrs      |    0hrs     |
 | Total                                                     |    H     |      0hrs      |     0hrs      |    0hrs     |
