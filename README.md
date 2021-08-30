@@ -10,8 +10,7 @@ Users can get the latest information about world population confirmed cases, dea
 
 ## API and Data Sample
 
-<https://ghoapi.azureedge.net/api/WHOSIS_000001> - Worldwide
-
+https://api.census.gov/data/2019/acs/acs1/profile?get=NAME,DP02_0001E&key= USA
 
 ## Wireframes
 
