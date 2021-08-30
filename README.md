@@ -2,72 +2,75 @@
 
 ## Project Name
 
-The name of your project.
+World population tracker
 
 ## Project Description
 
-Use this section to describe your final project and perhaps any links to relevant sites that help convey the concept and\or functionality.
+Users can get the latest information about world population confirmed cases, deaths and births in every country.
 
 ## API and Data Sample
 
-Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
+<https://ghoapi.azureedge.net/api/WHOSIS_000001> - Worldwide
+
 
 ## Wireframes
 
-Upload images of your wireframes to an image hosting site or add them to an assets folder in your repo and link them here with a description of each specific wireframe.
+Please check the link <https://whimsical.com/69EXxXXns3NPCddTh9n5M4>
 
-### MVP/PostMVP
+### MVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+- Users can select any States in the USA to receive information.
+- External API will provide needed information.
+- All information will be applied to the page.
+- It allows to see them total birth, total deaths .
+- An app that you give a list of countries, then returns how many people live in each one, in order from highest to lowest
+- After each new selection ,old information will be removed.
 
-#### MVP 
-*These are examples only. Replace with your own MVP features.*
+#### PostMVP
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
-
-#### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
-
-- Add second API
-- Use local storage to save user favorites
+- Will be added event listeners to receive correct information from API.
+- Most selectable States will be kept in local storage.
+- Will be used animation and gifts.
+- Will have adjusted for small devices as well.
+- Will be added extra space to have users feedback and suggestions.
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
-|  Day | Deliverable | Status
-|---|---| ---|
-|July 10-12| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
-|July 13| Project Approval | Incomplete
-|July 13| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|July 14| Pseudocode / actual code | Incomplete
-|July 15| Initial Clickable Model  | Incomplete
-|July 16| MVP | Incomplete
-|July 17| Presentations | Incomplete
+| Day          | Deliverable                                        | Status     |
+| ------------ | -------------------------------------------------- | ---------- |
+| August 28-29 | Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete |
+| August 30    | Project Approval                                   | Incomplete |
+| August 31    | Core Application Structure (HTML, CSS, etc.)       | Incomplete |
+| September 1  | Pseudocode / actual code                           | Incomplete |
+| September 2  | Initial Clickable Model                            | Incomplete |
+| September 3  | MVP                                                | Incomplete |
+| September 6  | Presentations                                      | Incomplete |
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+Please check the link -
+<https://whimsical.com/4KA3DE4FZDKmnRWBZEhZER>
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
-| Component | Priority | Estimated Time | Time Invested | Actual Time |
-| --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Component                                                 | Priority | Estimated Time | Time Invested | Actual Time |
+| --------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: | --- | ------------ | --- | ---- | --- | ---- |
+| API Research                                              |    H     |      3hrs      |    3.5hrs     |   3.5hrs    |
+| Working with API                                          |    H     |      0hrs      |     0hrs      |    0hrs     |
+| Work with html tags                                       |    H     |      3hrs      |     0hrs      |    0hrs     |
+| Adjust flex box design to div tags in html                |    H     |      5hrs      |     0hrs      |    0hrs     |
+| Add input and button tags, and connect them with API      |    H     |      3hrs      |     0hrs      |    0hrs     |
+| Test API request in html                                  |    H     |      1hrs      |     0hrs      |    0hrs     |
+| Apply correctly API's data to HTML                        |    H     |      5hrs      |     0hrs      |    0hrs     |
+| Apply design for small devices                            |    H     |      4hrs      |     0hrs      |    0hrs     |
+| Add outsourse data(images,gifts, animations etc.)         |    H     |      3hrs      |     0hrs      |    0hrs     |     | API Research | H   | 3hrs | 0rs | 0hrs |
+| Apply design and make it user friendly with correct logic |    H     |      4hrs      |     0hrs      |    0hrs     |
+| Additional futures                                        |    H     |      3hrs      |     0hrs      |    0hrs     |
+| Total                                                     |    H     |      0hrs      |     0hrs      |    0hrs     |
 
 ## Code Snippet
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+Use this section to include a brief code snippet of functionality that you are proud of and a brief description.
 
 ```
 function reverse(string) {
@@ -76,4 +79,5 @@ function reverse(string) {
 ```
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.  
+
+Use this section to document what changes were made and the reasoning behind those changes.
