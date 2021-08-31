@@ -1,1 +1,2 @@
-const search=document.getElementById
+// const search = document.getElementById
+// const div

@@ -5,30 +5,59 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Find Meals For Your Ingredients</title>
-  <link rel="stylesheet" href=""https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous"/>
+  <!-- <link rel="stylesheet" href=""https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css""/> -->
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <div class = "conteiner">
-    <div class = "meal-wrap">
-    <div class = "meal-search">
-    <h2 class = "title">Find Meals For Your Ingredients</h2>
-    <div class = "meal-search-box">
-      <input type="text" class = "search-content" placeholder="Enter an ingredient name" id = "search-input">
-      <button type = "submit" class = "search-btn btn" id = "search-btn">
-        <i class = "fas fa-search"></i>
-      </button>
+<div>
+  <div class = "container">
+    <div class = "food-wrap">
+    <div class = "food-search">
+    <h2 class = "title">Find Food Recipe For Your Ingredients</h2>
+    <div class = "food-search-box">
+      <input type="text" class = "search-control" placeholder="Ingredient name" id = "search-input">
+      <button type="button" class="type-btn">Search</button> 
     </div>
     </div>
-    <div class = "meal-result">
+    <div class = "food-result">
       <h2 class = "title">Your Search Results:</h2>
-      <div id = "meal">
-
-        
+      <div id = "food">
+        <div class = "food-item">
+          <div class = "food-img">
+            <img src="photo.jpeg" alt="salmon-photo">
+          </div>
+          <div class = "food-name">
+            <h3>Salmon Rice</h3>
+            <a href = "#" class = "recipe-btn">See Recipe</a>
+          </div>
+        </div>
       </div>
 
-    </div>
+   
+   <!-- </div>
+    <div class ="food-details">
+      <button type = "button" class = "btn recipe-close-btn" id = "recipe-close-btn">
+        <i class = "fas fa-times"></i>
+      </button>
+
+      <div class = "food-details-content">
+        <h2 class = "recipe-title">Foods Name Here</h2>
+        <p class = "recipe-category">Category Name</p>
+        <div class = "recipe-instruct">
+          <h3>Instructions:</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore placeat architecto iure sit sunt cumque. Tempora aliquid quam illum error nisi delectus vel provident, ipsa nostrum sequi labore, aliquam debitis.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti labore obcaecati vel in beatae rem, ipsa cum rerum qui tenetur autem sequi assumenda, recusandae praesentium quae soluta. Doloribus, ipsum adipisci!</p>
+        </div>
+        <div class = "recipe-meal-img"></div>
+        <img src="photo.jpeg" alt="">
+      </div>
+      <div class = "recipe-link">
+        <a href = "#" target = "_blank">Watch Video</a> -->
+      </div>
+    </div> 
   </div>
   </div>
+</div>
+
+  <script src = "script.js"></script>
 </body>
 </html>
