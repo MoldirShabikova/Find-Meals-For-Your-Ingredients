@@ -25,8 +25,12 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 36px;
-  background: rgb(218, 206, 223);
-  text-align:center
+  height: 650px;
+  background-image: url(https://www.diabetes.org/sites/default/files/2019-08/Diabetes-Superfoods-min.jpg); width: 100%;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-position: center;
+  text-align: center;
 }
 .food-search{
   margin: 28px;
@@ -110,7 +114,6 @@
   grid-template-columns: 1fr!important;
   color:rgb(20, 11, 11);
   font-size: 20px;
-  text-align: center;
 }
 
 
