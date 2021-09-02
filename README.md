@@ -30,9 +30,7 @@ Find Meals For Your Ingredients
 
 - Will be added background images.
 - Most selectable will be kept in local storage.
-- Will be separated by categories.
 - Will have adjusted for small devices as well.
-- Will be added extra space to have users feedback and suggestions.
 
 ## Project Schedule
 

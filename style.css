@@ -56,18 +56,7 @@
 .search-control::placeholder{
   color:darkorchid
 }
-.type-btn{
-  padding-top: 6px;
-  width: 80px;
-  height: 32px;
-  font-size: 16px;
-  background: darkorchid;
-  color: white;
-  transition: all 0.4s;
-}
-.type-btn:hover{
-  background:rgb(219, 216, 221) ;
-}
+
 .food-result{
   margin-top: 70px;
   margin-bottom: 35px;

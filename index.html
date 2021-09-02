@@ -4,9 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Find Meals For Your Ingredients</title>
   <link rel="stylesheet" href="style.css">
+  <script defer src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script defer src="script.js"></script>
+  <title>Find Meals For Your Ingredients</title>
 </head>
+<body>
 <div>
   <div class = "container">
     <div class = "food-wrap">
@@ -14,10 +17,10 @@
     <h2 class = "title">Your Secret Ingredients</h2>
     <div class = "food-search-box">
       <input type="text" class = "search-control" placeholder="Ingredient name" id = "search-input">
-      <button type="button" class="type-btn" Search id = "search-btn"> </button> 
+      <button id="search-btn" type="submit">Search</button>
     </div>
     </div>
-    <div class = "food-result">
+    <!-- <div class = "food-result"> -->
       <h2 class = "title">Choose Your Recipe:</h2>
       <div id = "food">
           <!-- <div class = "food-item">
@@ -26,7 +29,7 @@
           <div class = "food-img">
             <img src="photo.jpeg" alt="salmon-photo">
           </div>
-             <a href = "#" target="_blank" class = "recipe-btn" id = "recipe-ing">See Recipe</a> 
+             <a href = "#" class = "recipe-btn">See Recipe</a> 
           </div>
         </div> -->
         <!-- <div class = "food-desk-content">
@@ -44,8 +47,8 @@
     </div> 
   </div>
   </div>
-</div>
+  </div>
 
-  <script src = "script.js"></script>
+  
 </body>
 </html>
