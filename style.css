@@ -17,9 +17,11 @@
 .title{
   font-size: 30px;
   margin-bottom: 16px;
+  
 }
 .container{
   min-height: 100vh ;
+  margin-top: 50px;
 }
 .food-wrap{
   max-width: 1280px;
@@ -28,7 +30,6 @@
   height: 650px;
   background-image: url(https://www.diabetes.org/sites/default/files/2019-08/Diabetes-Superfoods-min.jpg); width: 100%;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
   background-position: center;
   text-align: center;
 }
@@ -62,7 +63,9 @@
   margin-bottom: 35px;
 }
 #food{
-  border-radius: 16px;
+
+position: relative;
+  
 }
 .food-item{
   border-radius: 16px;
@@ -104,7 +107,44 @@
   color:rgb(20, 11, 11);
   font-size: 20px;
 }
+.food-inst{
+  position: absolute;
+  left: 0%;
+  top: 0%;
+border: 3px solid black;
+ background-color: rgb(117, 200, 238);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+padding: 2%;
+ 
+}
 
+.food-inst img{
+  width: 500px;
+}
+
+.name-title{
+  color: blueviolet;
+  font: 2em sans-serif;
+  padding: 20px 5px;
+  text-align: center;
+}
+.recipe-category{
+  font-size: 30px;
+}
+.h3{
+  margin-bottom: 20px;
+}
+.recipe-instruct p{
+font-family: cursive;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
 
 /* Media Queries */
 @media screen and (min-width: 600px){
@@ -133,4 +173,10 @@
     #food{
         grid-template-columns: repeat(4, 1fr);
     }
+}
+
+@media screen and (min-width: 375px){
+  .food-inst img{
+   width: 200px !important;
+  }
 }

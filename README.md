@@ -30,6 +30,7 @@ Find Meals For Your Ingredients
 
 - Will be added background images.
 - Most selectable will be kept in local storage.
+- Will be separated by categories.
 - Will have adjusted for small devices as well.
 
 ## Project Schedule
@@ -54,17 +55,16 @@ Please check the link -
 | Component                                                 | Priority | Estimated Time | Time Invested | Actual Time |
 | --------------------------------------------------------- | :------: | :------------: | :-----------: | :---------: |
 | API Research                                              |    H     |      3hrs      |    3.5hrs     |   3.5hrs    |
-| Working with API                                          |    H     |      0hrs      |     0hrs      |    0hrs     |
-| Work with html tags                                       |    H     |      3hrs      |     0hrs      |    0hrs     |
-| Adjust flex box design to div tags in html                |    H     |      5hrs      |     0hrs      |    0hrs     |
-| Add input and button tags, and connect them with API      |    H     |      3hrs      |     0hrs      |    0hrs     |
-| Test API request in html                                  |    H     |      1hrs      |     0hrs      |    0hrs     |
-| Apply correctly API's data to HTML                        |    H     |      5hrs      |     0hrs      |    0hrs     |
-| Apply design for small devices                            |    H     |      4hrs      |     0hrs      |    0hrs     |
-| Add outsourse data(images,gifts, animations etc.)         |    H     |      3hrs      |     0hrs      |    0hrs     |
-| API Research                                              |    H     |      3hrs      |      0rs      |    0hrs     |
-| Apply design and make it user friendly with correct logic |    H     |      4hrs      |     0hrs      |    0hrs     |
-| Additional futures                                        |    H     |      3hrs      |     0hrs      |    0hrs     |
+| Working with API                                          |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Work with html tags                                       |    H     |      3hrs      |     3hrs      |    3hrs     |
+| Adjust flex box design to div tags in html                |    H     |      4hrs      |     4hrs      |    4hrs     |
+| Add input and button tags, and connect them with API      |    H     |      3hrs      |     2hrs      |    2hrs     |
+| Test API request in html                                  |    H     |      1hrs      |     2hrs      |    2hrs     |
+| Apply correctly API's data to HTML                        |    H     |      3hrs      |     4hrs      |    4hrs     |
+| Apply design for small devices                            |    H     |      4hrs      |     4hrs      |    4hrs     |
+| Add outsourse data(images,gifts, animations etc.)         |    H     |      3hrs      |     2hrs      |    3hrs     |
+| Apply design and make it user friendly with correct logic |    H     |      4hrs      |     3hrs      |    3hrs     |
+| Additional futures                                        |    H     |      3hrs      |     3hrs      |    3hrs     |
 | Total                                                     |    H     |      0hrs      |     0hrs      |    0hrs     |
 
 ## Code Snippet

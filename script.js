@@ -1,6 +1,8 @@
-
+const apiNames = 'https://www.themealdb.com/api/json/v1/1/filter.php?i='
+const apiRecipe = 'http://www.themealdb.com/api/json/v1/1/lookup.php?i='
 const searchBtn = document.getElementById('search-btn');
 const foodList = document.getElementById('food');
+const recipeShow = document.getElementById('recipe')
 let html = "";
 searchBtn.addEventListener('click', () => {
   console.log(searchBtn)
@@ -11,8 +13,7 @@ searchBtn.addEventListener('click', () => {
 
 // my API 
 
-const apiNames = 'https://www.themealdb.com/api/json/v1/1/filter.php?i='
-// const apiRecipe = 'http://www.themealdb.com/api/json/v1/1/lookup.php?i='
+
 
 // getting food list 
 
@@ -37,8 +38,7 @@ let res = await axios.get(`${apiNames+searchInputTxt}`)
        
         })
        
-       
-  foodList.classList.remove('error');
+     foodList.classList.remove('error');
       } else {
         html = "Sorry, we didn't find any recipe!"
       
@@ -64,22 +64,19 @@ async function getRecipe(mealItem) {
   const api_url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${mealItem.dataset.id}`;
   const response = await axios.get(api_url);
   let meal = response.data.meals[0]
+  
   console.log(response.data.meals[0]);
   html = `
-   <div class = "food-desk-content">
-  <h2 class = "recipe-title">${meal.strMeal}</h2>
-  <p class = "recipe-category">Category Name</p>
-  <div class = "recipe-instruct">
-    <h3>Instructions:</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore placeat architecto iure sit sunt cumque. Tempora aliquid quam illum error nisi delectus vel provident, ipsa nostrum sequi labore, aliquam debitis.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti labore obcaecati vel in beatae rem, ipsa cum rerum qui tenetur autem sequi assumenda, recusandae praesentium quae soluta. Doloribus, ipsum adipisci!</p>
+  <div class='food-inst'>
+  <h2 class = "name-title">${meal.strMeal}</h2>
+  <img src=${meal.strMealThumb} alt="">
+  <p class = "recipe-category">Category: ${meal.strCategory}</p>
+  <h3>Instructions:</h3>
+  <p>${meal.strInstructions}</p>
+  
   </div>
-  <div class = "recipe-food-img"></div>
-  <img src="photo.jpeg" alt="">
-</div>
-</div> `
-  foodList.innerHTML = html;
-
+   `
+   foodList.innerHTML = html;
 }
 
 
