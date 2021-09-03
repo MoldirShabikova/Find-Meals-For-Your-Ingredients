@@ -5,12 +5,7 @@
   margin: 0;
   box-sizing: border-box;
 }
-.btn{
-  font-family: inherit;
-  cursor: pointer;
-  font-size: medium;
-  outline: 1.05rem;
-}
+
 .text{
   opacity: 10px;
 }

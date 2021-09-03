@@ -3,6 +3,8 @@ const apiRecipe = 'http://www.themealdb.com/api/json/v1/1/lookup.php?i='
 const searchBtn = document.getElementById('search-btn');
 const foodList = document.getElementById('food');
 const recipeShow = document.getElementById('recipe')
+
+
 let html = "";
 searchBtn.addEventListener('click', () => {
   console.log(searchBtn)
