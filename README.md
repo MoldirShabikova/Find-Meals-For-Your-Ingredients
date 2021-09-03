@@ -1,6 +1,6 @@
 # Project Overview
 
-[View](https://moldirshabikova.github.io/Find-Meals-For-Your-Ingredients/)
+View - https://moldirshabikova.github.io/Find-Meals-For-Your-Ingredients/
 
 ## Project Name
 
